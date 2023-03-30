@@ -1,0 +1,87 @@
+DUMP EXAMPLE
+
+---------------CPU DUMP OCCURED------------------------
+
+Function: PUSH
+Line:     3
+
+CPU stack info:
+The stack address: [0x16f527570]
+The data begining address: [0x1356069d0]
+Stack capacity now is [10]
+Number of elems in stack now is [0]
+
+Functions return addresses info:
+The stack address: [0x16f527540]
+The data begining address: [0x135606960]
+Stack capacity now is [10]
+Number of elems in stack now is [0]
+
+
+--------------------DUMP FINISHED-------------------------
+
+
+
+---------------CPU DUMP OCCURED------------------------
+
+Function: PUSH
+Line:     5
+
+CPU stack info:
+The stack address: [0x16f527570]
+The data begining address: [0x1356069d0]
+Stack capacity now is [10]
+Number of elems in stack now is [0]
+
+Functions return addresses info:
+The stack address: [0x16f527540]
+The data begining address: [0x135606960]
+Stack capacity now is [10]
+Number of elems in stack now is [0]
+
+
+--------------------DUMP FINISHED-------------------------
+
+
+
+---------------CPU DUMP OCCURED------------------------
+
+Function: PUSH
+Line:     13
+
+CPU stack info:
+The stack address: [0x16f527570]
+The data begining address: [0x1356069d0]
+Stack capacity now is [10]
+Number of elems in stack now is [0]
+
+Functions return addresses info:
+The stack address: [0x16f527540]
+The data begining address: [0x135606960]
+Stack capacity now is [10]
+Number of elems in stack now is [1]
+d 0 0 0 
+
+
+--------------------DUMP FINISHED-------------------------
+
+
+
+---------------CPU DUMP OCCURED------------------------
+
+Function: PUSH
+Line:     14
+
+CPU stack info:
+The stack address: [0x16f527570]
+The data begining address: [0x1356069d0]
+Stack capacity now is [10]
+Number of elems in stack now is [1]
+1 0 0 0 
+
+Functions return addresses info:
+The stack address: [0x16f527540]
+The data begining address: [0x135606960]
+Stack capacity now is [10]
+Number of elems in stack now is [1]
+d 0 0 0 

@@ -1,0 +1,28 @@
+IN
+POP rax
+PUSH 1
+POP rbx
+PUSH 1
+POP rdx
+CALL :FACT
+PUSH rex
+OUT // rdx value
+HLT
+
+FACT:
+PUSH rbx              //RBX -> INC   | n | 1 | -> | n | 2 | n | 1 |
+PUSH rax              //RAX -> NUM
+JMP_BE :END
+PUSH rbx              //| 1 | n | 1 |
+PUSH 1 
+ADD                   //| 2 | n | 1|
+PUSH rdx              //| 1 | 2 | n | 1 |
+MUL
+POP rdx               //| n | 1 |
+PUSH rbx  
+PUSH 1
+ADD
+POP rbx               //rbx -> 2 //| n | 1 |
+CALL :FACT
+END:
+HLT

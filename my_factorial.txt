@@ -1,0 +1,34 @@
+IN
+PUSH 0
+POP rbx
+CALL :factorial
+
+PUSH rbx
+MUL
+OUT
+HLT
+
+factorial:
+POP rax
+PUSH rax
+PUSH 1
+PUSH rax
+
+JMP_A :else
+PUSH 1
+POP rbx
+HLT
+
+else:
+POP rax
+PUSH rax
+PUSH rax
+PUSH 1
+SUB
+CALL :factorial
+
+PUSH rbx
+MUL
+POP rbx
+
+HLT
