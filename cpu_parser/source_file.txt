@@ -1,0 +1,3 @@
+   push [   ] 2 rdx  rcx + (  1  0 - 2) * 3 
+  push :this_metka          
+  :  call    # comment goes here

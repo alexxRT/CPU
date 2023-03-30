@@ -1,3 +1,7 @@
 .vscode
 .DS_Store
+debug/.DS_Store
+memory/.DS_Store
+text/.DS_Store
+warnings/.DS_Store
 
